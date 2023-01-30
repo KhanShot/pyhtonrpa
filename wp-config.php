@@ -1,4 +1,10 @@
 <?php
+
+//Begin Really Simple SSL session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple SSL cookie settings
 /**
  * The base configuration for WordPress
  *
@@ -20,13 +26,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'calab_wp4' );
+define( 'DB_NAME', 'wp-site' );
 
 /** Database username */
-define( 'DB_USER', 'calab_wp4' );
+define( 'DB_USER', 'wp-python' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'wA&3C*U4%' );
+define( 'DB_PASSWORD', 'Bebetter01' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -36,6 +42,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+define('FS_METHOD','direct');
 
 /**#@+
  * Authentication unique keys and salts.
