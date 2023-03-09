@@ -539,8 +539,7 @@
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables"><strong>Robotic Process Automation</strong> (<strong>RPA)</strong> - is a technology that imitates human actions in computer systems using bots. RPA Bots (or Bots) are algorithms that are &quot;trained&quot; to perform certain actions, mostly routine, repetitive, rule-based tasks that usually take too long to perform manually.<br><br>Bots are often used in conjunction with systems such as CRM as assistants to sales managers. Key reason for using bots in sales is that almost every company has vendor-locked off the shelf CRM systems, which are not easy to configure or integrate with other software and enjoy <strong>100% automation.</strong>
-                                <a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
+                              <p class="paragraph-9 tables"><?php echo category_description(5); ?>
                               </p>
                             </div>
                           </div>
@@ -592,7 +591,7 @@ if( $recipes->have_posts() ) {
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables">With Python RPA, customers can streamline product management processes on marketplaces, websites, and CRMs, as well as quickly gather all analytical data in one place for the marketing department.<a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
+                              <p class="paragraph-9 tables"><?php echo category_description(6); ?>
                               </p>
                             </div>
                           </div>
@@ -644,7 +643,7 @@ if( $recipes->have_posts() ) {
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables">The accounting department is the primary user of RPA in any company, as accountants often perform many manual and repetitive tasks, resulting in significant overtime work, especially during period closings. <br>Python RPA can help streamline these processes by reducing the potential for human error and reducing the need for overtime hours.<a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
+                              <p class="paragraph-9 tables"><?php echo category_description(11); ?>
                               </p>
                             </div>
                           </div>
@@ -696,8 +695,7 @@ if( $recipes->have_posts() ) {
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables">From job posting on headhunting websites to employee onboarding, Python RPA helps transform HR processes in a seamless manner and improve employee job satisfaction by <strong>more than 30%.</strong>
-                                <a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
+                              <p class="paragraph-9 tables"><?php echo category_description(8); ?>
                               </p>
                             </div>
                           </div>
@@ -749,8 +747,7 @@ if( $recipes->have_posts() ) {
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables">Using Python RPA, companies can improve their customer service by automating tasks such as answering email inquiries, using chatbots, and informing customers about the successful resolution of their issues. This allows the company to provide <strong>24/7 service</strong> and improve the customer experience.<a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
-                              </p>
+                              <p class="paragraph-9 tables"><?php echo category_description(9); ?></p>
                             </div>
                           </div>
                         </div>
@@ -801,8 +798,7 @@ if( $recipes->have_posts() ) {
                           </div>
                           <div class="slider---text-wrap">
                             <div class="slider---text">
-                              <p class="paragraph-9 tables">Python RPA can automate tasks such as creating user accounts and testing system interfaces, reducing the workload for IT staff and allowing them to focus on more important tasks.<a href="https://rpa-9d49ca.webflow.io/#"><strong><br></strong></a>
-                              </p>
+                              <p class="paragraph-9 tables"><?php echo category_description(10); ?></p>
                             </div>
                           </div>
                         </div>
